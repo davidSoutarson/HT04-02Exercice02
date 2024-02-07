@@ -1,10 +1,12 @@
-# .1 Les Modifification:
+# suivie des consigne devoir 2 EX 02
+
+## .1 Les Modifification
 
     OK -Renplaser limage LOGO par : h1 Le titre: FAIT
 
     Ok -Modifier le menue 3 ongles comme suis : Accueil . Qui sommes nous . Contacts :FAIT
 
-# .2 Les ajoue:
+## .2 Les ajoue
 
     OK -Ajouter 3 image bouquer de fleur: FAIT
 
@@ -16,9 +18,9 @@
 
 Simple modification du contenue html terminer
 
-==============================================================================
+===========================================================================
 
-# .3 Respecter la consigne:
+## .3 Respecter la consigne
 
     -Instales bootstrape
 
@@ -26,7 +28,7 @@ Simple modification du contenue html terminer
 
     Noir Gris Blanc Bleu
 
-# 4 Mise en page responsive : Suivre consigne et anex image du proger:
+## .4 Mise en page responsive : Suivre consigne et anex image du proger
 
     -screen-big :
 
