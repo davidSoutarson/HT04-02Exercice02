@@ -3,153 +3,189 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootsrap exo2</title>
-
-
-	<link href="css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<!-- intalation Bootstrap v5.3.2: fichier principale contenant: la totalité du CSS (bootstrap.css) -->
+	<link href="css/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
 
 </head>
 
-<body>
+<body class=" m-0 border-0 bd-example m-0 border-0 ">
 
-	<div class="wrapper">
-		<header class="header">
+	<!--div id="wraper" option pour autre proger -->
+	<!-- bordure noir et sentrage de la page -->
+	<div class=" border border-dark border-5 border-top-0 border-bottom-0 ms-auto ">
 
-			<div class="header-title">
+		<header class="header ">
+
+			<div class=" d-flex justify-content-center">
 				<h1> Le titre</h1>
 			</div>
 		</header>
 
-		<nav>
-			<ul class="menu">
-				<li class="menu-item"><a href="#">Accueil</a></li>
-				<li class="menu-item"><a href="#">Qui sommes nous</a></li>
-				<li class="menu-item"><a href="#">Contacts</a></li>
+		<nav class=" bg-dark ">
+			<ul class="nav d-flex flex-column flex-sm-column flex-md-row flex-lg-row justify-content-center ">
+				<li class="nav-item "><a class="nav-link ative" href="#">Accueil</a></li>
+				<li class="nav-item"><a class="nav-link text-light" href="#">Qui sommes nous</a></li>
+				<li class="nav-item"><a class="nav-link text-light" href="#">Contacts</a></li>
 			</ul>
 		</nav>
-
 		<main>
-			<img src="img/fleur01.jpg" alt="Bouquet de fleur image libre de doir">
-			<h2>tire bouquet de fleur</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
-				et, quia voluptatem iusto consequatur asperiores maiores deleniti mollitia nulla !
-			</p>
-			<img src="img/fleur02.jpg" alt="Bouquet de fleur image libre de doir">
-			<h2>tire bouquet de fleur</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
-				et, quia voluptatem iusto consequatur asperiores maiores deleniti mollitia nulla !
-			</p>
-			<img src="img/fleur03.jpg" alt="Bouquet de fleur image libre de doir">
-			<h2>tire bouquet de fleur</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
-				et, quia voluptatem iusto consequatur asperiores maiores deleniti mollitia nulla !
-			</p>
-			<section class="row">
-				<article class="article">
-					<header class="article-header">
-						<figure class="article-figure">
-							<img src="img/01.jpg" alt="description image">
-						</figure>
-						<h2>Lorsqu’on parle de tous.</h2>
-						<p class="meta">Par <span class="auteur">Armèle Tripoux</span></p>
-					</header>
-					<section class="article-body">
 
-						<p>
-							Laborum pariatur labore id ex cupidatat exercitation eu exercitation mollit culpa in tempor
-							consequat commodo cillum qui ut fugiat consequat nostrud minim id est sit dolore elit
-							voluptate eiusmod mollit culpa proident eiusmod. Ut cupidatat quis fugiat ex laboris
-							reprehenderit sint mollit anim amet esse et dolore qui labore in aliqua dolore dolore quis
-							dolore laboris ea dolore eiusmod nulla ut cupidatat qui officia laborum in id exercitation.
-							Occaecat ullamco elit ad aute ut aliquip sunt nostrud dolor quis in et ut sint laboris
-							commodo tempor sed laborum voluptate ut esse sunt anim sunt ut nulla velit est quis magna
-							officia.
-						</p>
-						<button class="bt"><a href="#" target="_blank">lire la suite</a></button>
-					</section>
-
-				</article>
-				<article class="article">
-					<header class="article-header">
-						<figure class="article-figure">
-							<img src="img/02.jpg" alt="description image">
-						</figure>
-						<h2>Lorsqu’on parle de tous.</h2>
-						<p class="meta">Par <span class="auteur">Sylvain Poilard</span></p>
-					</header>
-					<section class="article-body">
-
-						<p>
-							Laborum pariatur labore id ex cupidatat exercitation eu exercitation mollit culpa in tempor
-							consequat commodo cillum qui ut fugiat consequat nostrud minim id est sit dolore elit
-							voluptate eiusmod mollit culpa proident eiusmod. Ut cupidatat quis fugiat ex laboris
-							reprehenderit sint mollit anim amet esse et dolore qui labore in aliqua dolore dolore quis
-							dolore laboris ea dolore eiusmod nulla ut cupidatat qui officia laborum in id exercitation.
-							Occaecat ullamco elit ad aute ut aliquip sunt nostrud dolor quis in et ut sint laboris
-							commodo tempor sed laborum voluptate ut esse sunt anim sunt ut nulla velit est quis magna
-							officia.
-						</p>
-						<button class="bt"><a href="#" target="_blank">lire la suite</a></button>
-					</section>
-
-				</article>
-			</section>
-
-			<section class="row containerVignettes">
-				<figure class="vignette">
-					<img src="img/03.jpg" alt="description image" class="vignette-img">
-				</figure>
-				<h2>Lorsqu’on parle de tous.</h2>
-				<p class="meta">Par <span class="auteur">Armèle Tripoux</span></p>
-				</header>
-				<section class="article-body">
-
+			<div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-start mb-0 p-4">
+				<div class="px-4 pt-4 pb-0">
+					<img src="img/fleur01.jpg" alt="Bouquet de fleur image libre de doir" width="200" height="200">
+				</div>
+				<div class=" p-4 ">
+					<h2>Tire bouquet de fleur</h2>
 					<p>
-						Laborum pariatur labore id ex cupidatat exercitation eu exercitation mollit culpa in tempor
-						consequat commodo cillum qui ut fugiat consequat nostrud minim id est sit dolore elit
-						voluptate eiusmod mollit culpa proident eiusmod. Ut cupidatat quis fugiat ex laboris
-						reprehenderit sint mollit anim amet esse et dolore qui labore in aliqua dolore dolore quis
-						dolore laboris ea dolore eiusmod nulla ut cupidatat qui officia laborum in id exercitation.
-						Occaecat ullamco elit ad aute ut aliquip sunt nostrud dolor quis in et ut sint laboris
-						commodo tempor sed laborum voluptate ut esse sunt anim sunt ut nulla velit est quis magna
-						officia.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
+						et, quia voluptatem iusto consequatur asperiores maiores deleniti mollitia nulla !
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
+						et, quia voluptatem iusto consequatur asperiores maiores deleniti mollitia nulla !
+
 					</p>
-					<button class="bt"><a href="#" target="_blank">lire la suite</a></button>
-				</section>
+				</div>
+			</div>
 
-				<figure class="vignette">
-					<img src="img/04.jpg" alt="description image" class="vignette-img">
-				</figure>
-				<h2>Lorsqu’on parle de tous.</h2>
-				<p class="meta">Par <span class="auteur">Armèle Tripoux</span></p>
-				</header>
-				<section class="article-body">
-
+			<div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row mb-0 p-4">
+				<div class="px-4 pb-0 ">
+					<img src="img/fleur02.jpg" alt="Bouquet de fleur image libre de doir" width="200" height="200">
+				</div>
+				<div class="p-4">
+					<h2>Tire bouquet de fleur</h2>
 					<p>
-						Laborum pariatur labore id ex cupidatat exercitation eu exercitation mollit culpa in tempor
-						consequat commodo cillum qui ut fugiat consequat nostrud minim id est sit dolore elit
-						voluptate eiusmod mollit culpa proident eiusmod. Ut cupidatat quis fugiat ex laboris
-						reprehenderit sint mollit anim amet esse et dolore qui labore in aliqua dolore dolore quis
-						dolore laboris ea dolore eiusmod nulla ut cupidatat qui officia laborum in id exercitation.
-						Occaecat ullamco elit ad aute ut aliquip sunt nostrud dolor quis in et ut sint laboris
-						commodo tempor sed laborum voluptate ut esse sunt anim sunt ut nulla velit est quis magna
-						officia.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
+						et, quia voluptatem iusto consequatur asperiores maiores deleniti mollitia nulla !
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
+						et, quia voluptatem iusto consequatur asperiores maiores deleniti mollitia nulla !
+
 					</p>
-					<button class="bt"><a href="#" target="_blank">lire la suite</a></button>
-				</section>
+				</div>
+			</div>
 
-			</section>
+			<div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row mb-0 p-4">
+				<div class="px-4 pb-4">
+					<img src="img/fleur03.jpg" alt="Bouquet de fleur image libre de doir" width="200" height="200">
+				</div>
+				<div class="p-4">
+					<h2>Tire bouquet de fleur</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
+						et, quia voluptatem iusto consequatur asperiores maiores deleniti mollitia nulla !
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
+						et, quia voluptatem iusto consequatur asperiores maiores deleniti mollitia nulla !
 
-			<footer class="main-footer">
+					</p>
+				</div>
+			</div>
+
+			<!-- =====================================   carte bootstrap ======================== -->
+
+
+			<article class=" row row-cols-1 row row-cols-sm-1  row-cols-md-2 row-cols-lg-3 g-4 p-4">
+
+				<div class="col ">
+					<div class="card h-100 border-light">
+						<img src="img/01.jpg" alt="description image" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Laborum pariatur labore id ex cupidatat exercitation eu
+								exercitation
+								mollit culpa in tempor
+								consequat commodo cillum qui ut fugiat consequat nostrud minim id est sit dolore
+								elit
+								voluptate eiusmod mollit culpa proident eiusmod. Ut cupidatat quis fugiat ex laboris
+								reprehenderit sint mollit anim amet esse et dolore qui labore in aliqua dolore
+								dolore
+								quis
+								.</p>
+						</div>
+						<div class="card-footer">
+							<button class="btn btn-secondary ">lire la suite</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col ">
+					<div class="card h-100 border-light">
+						<img src="img/02.jpg" alt="description image" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Laborum pariatur labore id ex cupidatat exercitation eu
+								exercitation
+								mollit culpa in tempor
+								consequat commodo cillum qui ut fugiat consequat nostrud minim id est sit dolore
+								elit
+								voluptate eiusmod mollit culpa proident eiusmod. Ut cupidatat quis fugiat ex laboris
+								reprehenderit sint mollit anim amet esse et dolore qui labore in aliqua dolore
+								dolore
+								quis
+							</p>
+						</div>
+						<div class="card-footer">
+							<button class="btn btn-secondary ">lire la suite</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card h-100 border-light">
+						<img src="img/03.jpg" alt="description image" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Laborum pariatur labore id ex cupidatat exercitation eu
+								exercitation
+								mollit culpa in tempor
+								consequat commodo cillum qui ut fugiat consequat nostrud minim id est sit dolore
+								elit
+								voluptate eiusmod mollit culpa proident eiusmod. Ut cupidatat quis fugiat ex laboris
+								reprehenderit sint mollit anim amet esse et dolore qui labore in aliqua dolore
+								dolore
+								quis
+								.</p>
+						</div>
+						<div class="card-footer">
+							<button class="btn btn-secondary ">lire la suite</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card h-100 border-light">
+						<img src="img/04.jpg" alt="description image" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Laborum pariatur labore id ex cupidatat exercitation eu
+								exercitation
+								mollit culpa in tempor
+								consequat commodo cillum qui ut fugiat consequat nostrud minim id est sit dolore
+								elit
+								voluptate eiusmod mollit culpa proident eiusmod. Ut cupidatat quis fugiat ex laboris
+								reprehenderit sint mollit anim amet esse et dolore qui labore in aliqua dolore
+								dolore
+								quis
+							</p>
+						</div>
+						<div class="card-footer">
+							<button class="btn btn-secondary ">lire la suite</button>
+						</div>
+					</div>
+				</div>
+
+			</article>
+
+			<!-- mt-5 ajoute une marge ver le haut || my-5 ajoute une marge haut et basse valeur mini 0a5 maxi -->
+			<footer class="footer d-flex justify-content-center bg-secondary mt-5 p-4">
 				<p>// Footer d-D-x //</p>
 			</footer>
+
+		</main>
 	</div>
-
-
+	<!-- appel et chargement de la bibliothèque JQuery et du fichier JavaScript (bootstrap.bundle.js) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

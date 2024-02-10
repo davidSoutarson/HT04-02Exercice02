@@ -21,7 +21,7 @@ Simple modification du contenue html terminer
 
 3 Respecter la consigne:
 
-	-Instales bootstrape
+	ok -Instales bootstrape Fait
 
 	-Choisir la chartre grafique qui corespon au projet
 
