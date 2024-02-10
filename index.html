@@ -7,37 +7,38 @@
 	<title>Bootsrap exo2</title>
 	<!-- intalation Bootstrap v5.3.2: fichier principale contenant: la totalité du CSS (bootstrap.css) -->
 	<link href="css/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css" />
-
-
 </head>
 
 <body class=" m-0 border-0 bd-example m-0 border-0 ">
-
 	<!--div id="wraper" option pour autre proger -->
 	<!-- bordure noir et sentrage de la page -->
 	<div class=" border border-dark border-5 border-top-0 border-bottom-0 ms-auto ">
-
+		<!-- ======================== header div bootstrap centre le tire h1 ======================== -->
 		<header class="header ">
-
 			<div class=" d-flex justify-content-center">
 				<h1> Le titre</h1>
 			</div>
 		</header>
-
+		<!-- ======================== Menu nav bootstrap aligne ou empile nav-item ======================== -->
 		<nav class=" bg-dark ">
 			<ul class="nav d-flex flex-column flex-sm-column flex-md-row flex-lg-row justify-content-center ">
+
+				<!-- ======================== Menu nav-item bootstrap ative modifie couleur nav-link ======================== -->
 				<li class="nav-item "><a class="nav-link ative" href="#">Accueil</a></li>
 				<li class="nav-item"><a class="nav-link text-light" href="#">Qui sommes nous</a></li>
 				<li class="nav-item"><a class="nav-link text-light" href="#">Contacts</a></li>
 			</ul>
 		</nav>
+		<!-- ======================== Main  ======================== -->
 		<main>
-
-			<div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-start mb-0 p-4">
-				<div class="px-4 pt-4 pb-0">
+			<!-- ======================== ## aligne ou empile 3 article et leurs contenue  ======================== -->
+			<!-- ... -->
+			<!-- ========================  bootstrap aligne ou empile le contenu article ======================== -->
+			<article class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row ">
+				<div class="p-4">
 					<img src="img/fleur01.jpg" alt="Bouquet de fleur image libre de doir" width="200" height="200">
 				</div>
-				<div class=" p-4 ">
+				<div class="p-4">
 					<h2>Tire bouquet de fleur</h2>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum in eveniet,
@@ -47,10 +48,10 @@
 
 					</p>
 				</div>
-			</div>
-
-			<div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row mb-0 p-4">
-				<div class="px-4 pb-0 ">
+			</article>
+			<!-- ========================  bootstrap aligne ou empile le contenu article ======================== -->
+			<article class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row  ">
+				<div class="p-4">
 					<img src="img/fleur02.jpg" alt="Bouquet de fleur image libre de doir" width="200" height="200">
 				</div>
 				<div class="p-4">
@@ -63,10 +64,10 @@
 
 					</p>
 				</div>
-			</div>
-
-			<div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row mb-0 p-4">
-				<div class="px-4 pb-4">
+			</article>
+			<!-- ========================  bootstrap aligne ou empile le contenu article ======================== -->
+			<article class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row  ">
+				<div class="p-4">
 					<img src="img/fleur03.jpg" alt="Bouquet de fleur image libre de doir" width="200" height="200">
 				</div>
 				<div class="p-4">
@@ -79,15 +80,15 @@
 
 					</p>
 				</div>
-			</div>
+			</article>
+			<!-- ======================== cette article contien 4 carte ========================  -->
+			<!-- ======================== bootstrap aligne ou empile 4 carte ========================  -->
+			<article class=" row row-cols-1 row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 p-4">
 
-			<!-- =====================================   carte bootstrap ======================== -->
-
-
-			<article class=" row row-cols-1 row row-cols-sm-1  row-cols-md-2 row-cols-lg-3 g-4 p-4">
-
+				<!-- ======================== contien une carte ======================== -->
 				<div class="col ">
-					<div class="card h-100 border-light">
+					<!-- ======================== card bootstrap cration de carte ======================== -->
+					<div class="card h-100 border-1">
 						<img src="img/01.jpg" alt="description image" class="card-img-top">
 						<div class="card-body">
 							<h5 class="card-title">Card title</h5>
@@ -102,14 +103,16 @@
 								quis
 								.</p>
 						</div>
-						<div class="card-footer">
+						<div class="card-footer border-top-0 bg-white">
 							<button class="btn btn-secondary ">lire la suite</button>
 						</div>
 					</div>
 				</div>
 
+				<!-- ======================== contien une carte ======================== -->
 				<div class="col ">
-					<div class="card h-100 border-light">
+					<!-- ======================== card bootstrap cration de carte ======================== -->
+					<div class="card h-100 border-1">
 						<img src="img/02.jpg" alt="description image" class="card-img-top">
 						<div class="card-body">
 							<h5 class="card-title">Card title</h5>
@@ -124,14 +127,16 @@
 								quis
 							</p>
 						</div>
-						<div class="card-footer">
+						<div class="card-footer border-top-0 bg-white">
 							<button class="btn btn-secondary ">lire la suite</button>
 						</div>
 					</div>
 				</div>
 
+				<!-- ======================== contien une carte ======================== -->
 				<div class="col">
-					<div class="card h-100 border-light">
+					<!-- ======================== card bootstrap cration de carte ======================== -->
+					<div class="card h-100 border-1">
 						<img src="img/03.jpg" alt="description image" class="card-img-top">
 						<div class="card-body">
 							<h5 class="card-title">Card title</h5>
@@ -146,14 +151,16 @@
 								quis
 								.</p>
 						</div>
-						<div class="card-footer">
+						<div class="card-footer border-top-0 bg-white">
 							<button class="btn btn-secondary ">lire la suite</button>
 						</div>
 					</div>
 				</div>
 
+				<!-- ======================== contien une carte ======================== -->
 				<div class="col">
-					<div class="card h-100 border-light">
+					<!-- ======================== card bootstrap cration de carte ======================== -->
+					<div class="card h-100 border-1">
 						<img src="img/04.jpg" alt="description image" class="card-img-top">
 						<div class="card-body">
 							<h5 class="card-title">Card title</h5>
@@ -168,17 +175,18 @@
 								quis
 							</p>
 						</div>
-						<div class="card-footer">
-							<button class="btn btn-secondary ">lire la suite</button>
+						<div class="card-footer border-top-0 bg-white">
+							<button class="btn btn-secondary  ">lire la suite</button>
 						</div>
 					</div>
 				</div>
 
 			</article>
 
+			<!-- ======================== contien une le footer ======================== -->
 			<!-- mt-5 ajoute une marge ver le haut || my-5 ajoute une marge haut et basse valeur mini 0a5 maxi -->
 			<footer class="footer d-flex justify-content-center bg-secondary mt-5 p-4">
-				<p>// Footer d-D-x //</p>
+				<p> footer </p>
 			</footer>
 
 		</main>
